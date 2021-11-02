@@ -1,0 +1,1 @@
+class Testplant{    public static void main(String[]args){	Plant mp=new Plant();	String PlantName=mp.name;	float PlantHeight = mp.height;	mp.grow();	String response = mp.absorbCO2();		System.out.println(PlantName);	System.out.println(PlantHeight);		System.out.println(response);		}		}
